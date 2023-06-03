@@ -1,0 +1,5 @@
+Functions: 
+    ☐ Fix status from the create function;
+    ☐ setStatusTo;
+    ☐ delete;
+    ☐ getAll with paging;
