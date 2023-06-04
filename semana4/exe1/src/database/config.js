@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-const url = "mongodb+srv://jessie:jessie@first.buahyq8.mongodb.net/supermarket"
+const url = "link"
 
 async function initializeDatabase() {
   mongoose.connection

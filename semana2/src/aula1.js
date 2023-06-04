@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const url = "mongodb+srv://jessie:jessie@first.buahyq8.mongodb.net/";
+const url = "link";
 const db = "lib";
 const collection = "books";
 
