@@ -1,14 +1,19 @@
 import dotenv from "dotenv"
 import express from "express"
 import { connectionDatabase } from "./database"
-import { userRouter } from "./routes/userRoutes"
+import { RoutesUserTasks } from "./routes"
 
 dotenv.config()
-connectionDatabase()
+
+;(async () => {
+    await connectionDatabase();
+  })();
+  
+
 
 const app = express()
 
 app.use(express.json())
-app.use(userRouter)
+app.use(RoutesUserTasks)
 
 app.listen(3333, () => console.log('listening port 3333'))
